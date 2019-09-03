@@ -26,5 +26,11 @@ function generateNumbers() {
     $("objective").text(userObjective);
 }
 
+function generateItemValue() {
+    itemOne = Math.floor(Math.random() * 11 + 1);
+    itemTwo = Math.floor(Math.random() * 11 + 1);
+    itemThree = Math.floor(Math.random() * 11 + 1);
+    itemFour = Math.floor(Math.random() * 11 + 1);
+}
 
 });
