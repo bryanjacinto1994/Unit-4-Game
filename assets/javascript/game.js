@@ -21,7 +21,10 @@ var losses = 0;
 var userScore = 0;
 var userObjective = 0;
 
-
+function generateNumbers() {
+    userObjective = Math.floor(Math.random() * 101 + 19);
+    $("objective").text(userObjective);
+}
 
 
 });
