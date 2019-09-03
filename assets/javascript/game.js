@@ -23,14 +23,21 @@ var userObjective = 0;
 
 function generateNumbers() {
     userObjective = Math.floor(Math.random() * 101 + 19);
-    $("objective").text(userObjective);
+    $("#objective").text(userObjective);
 }
 
-function generateItemValue() {
+function generateItemValues() {
     itemOne = Math.floor(Math.random() * 11 + 1);
     itemTwo = Math.floor(Math.random() * 11 + 1);
     itemThree = Math.floor(Math.random() * 11 + 1);
     itemFour = Math.floor(Math.random() * 11 + 1);
+}
+
+function resetGame() {
+    userScore = 0;
+    $("#score").text(userScore);
+    generateNumbers();
+    generateItemValues();
 }
 
 });
