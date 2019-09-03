@@ -47,5 +47,11 @@ function scoreWin(){
     resetGame();
 }
 
+function scoreLose(){
+    alert("Game Over!");
+    losses++;
+    $("#losses").text(losses);
+    resetGame();
+}
 
 });
