@@ -40,4 +40,12 @@ function resetGame() {
     generateItemValues();
 }
 
+function scoreWin(){
+    alert("You won!");
+    wins++;
+    $("#wins").text(wins);
+    resetGame();
+}
+
+
 });
