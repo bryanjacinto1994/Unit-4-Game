@@ -87,5 +87,16 @@ $("itemThree").on("click", function(){
     }
 });
 
+$("itemFour").on("click", function(){
+    userScore += itemFour;
+    $("#score").text(userScore);
+    if (userScore === userObjective){
+        scoreWin();
+    }
+    else if (userScore > userObjective){
+        scoreLose();
+    }
+});
+
 
 });
