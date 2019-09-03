@@ -12,8 +12,16 @@
 
 $(document).ready(function () {
 
+var itemOne = 0; 
+var itemTwo = 0;
+var itemThree = 0;
+var itemFour = 0;
+var wins = 0;
+var losses = 0;
+var userScore = 0;
+var userObjective = 0;
 
 
 
-    
-})
+
+});
