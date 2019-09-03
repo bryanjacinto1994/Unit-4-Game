@@ -54,4 +54,14 @@ function scoreLose(){
     resetGame();
 }
 
+$("#itemOne").on("click", function () {
+    userScore += itemOne;
+    $("score").text(userScore);
+    if (userScore === userObjective){
+        scoreWin();
+    }
+    else if (userScore > userObjective){
+        scoreLose();
+    }
+})
 });
