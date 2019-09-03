@@ -98,5 +98,6 @@ $("itemFour").on("click", function(){
     }
 });
 
+resetGame();
 
 });
