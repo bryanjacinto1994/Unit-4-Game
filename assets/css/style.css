@@ -39,6 +39,14 @@
   color: white;
   background-color: black;
   padding: 5px;
-  left: 40px;
-  top: 150px;
+  left: 100px;
+  top: 50px;
+}
+
+.instructions{
+    position: absolute;
+    color: white;
+    width: 250px;
+    left: 80px;
+    display: none;
 }
