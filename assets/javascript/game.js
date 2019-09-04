@@ -53,7 +53,7 @@ function scoreWin(){
 }
 
 function scoreLose(){
-    alert("Game Over!");
+    alert("Game Over! You Lose!");
     losses++;
     $("#losses").text(losses);
     resetGame();
