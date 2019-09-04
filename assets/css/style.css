@@ -1,3 +1,11 @@
+#background{
+    width: 100%;
+    min-height: 100%;
+    min-width: 1024px;
+    position:fixed;
+}
+
+
 #goal {
     text-align: center;
 }   
@@ -8,10 +16,12 @@
 
 #scorePosition{
     text-align: center;
+    position: relative;
+    top: 300px;
 }
 
 .images{
     text-align: center;
     position: relative;
-    top: 300px;
+    top: 500px;
 }
