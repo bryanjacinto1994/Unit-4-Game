@@ -39,8 +39,9 @@
   color: white;
   background-color: black;
   padding: 5px;
-  left: 100px;
+  left: 60px;
   top: 50px;
+  font-size: 26px;
 }
 
 .instructions{
@@ -49,4 +50,11 @@
     width: 250px;
     left: 80px;
     display: none;
+    
 }
+ #audio{
+     position: relative;
+     top: 340px;
+    
+ }
+

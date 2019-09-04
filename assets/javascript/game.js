@@ -21,6 +21,11 @@ var losses = 0;
 var userScore = 0;
 var userObjective = 0;
 
+$("#button1").click(function (){
+    $("#instructions").toggle();
+});
+
+
 function generateNumbers() {
     userObjective = Math.floor(Math.random() * 101 + 19);
     $("#objective").text(userObjective);
@@ -53,6 +58,7 @@ function scoreLose(){
     $("#losses").text(losses);
     resetGame();
 }
+
 
 $("#itemOne").on("click", function () {
     userScore += itemOne;
