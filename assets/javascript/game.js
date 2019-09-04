@@ -56,7 +56,7 @@ function scoreLose(){
 
 $("#itemOne").on("click", function () {
     userScore += itemOne;
-    $("score").text(userScore);
+    $("#score").text(userScore);
     if (userScore === userObjective){
         scoreWin();
     }
@@ -76,7 +76,7 @@ $("#itemTwo").on("click", function(){
     }
 });
 
-$("itemThree").on("click", function(){
+$("#itemThree").on("click", function(){
     userScore += itemThree;
     $("#score").text(userScore);
     if (userScore === userObjective){
@@ -87,7 +87,7 @@ $("itemThree").on("click", function(){
     }
 });
 
-$("itemFour").on("click", function(){
+$("#itemFour").on("click", function(){
     userScore += itemFour;
     $("#score").text(userScore);
     if (userScore === userObjective){

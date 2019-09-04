@@ -1,0 +1,17 @@
+#goal {
+    text-align: center;
+}   
+
+.wins-loss{
+    text-align: center;
+}
+
+#scorePosition{
+    text-align: center;
+}
+
+.images{
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
