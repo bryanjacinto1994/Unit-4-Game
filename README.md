@@ -1,6 +1,7 @@
 # Unit-4-Game
 ### Links: 
-https://bryanjacinto1994.github.io/Unit-4-Game/.
+https://bryanjacinto1994.github.io/Unit-4-Game/
+<br>
 https://github.com/bryanjacinto1994/Unit-4-Game
 ## Images
 
